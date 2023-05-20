@@ -1,0 +1,1 @@
+export type TIdentifier = string | number;

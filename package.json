@@ -1,0 +1,13 @@
+{
+  "name": "restsource",
+  "version": "1.0.0",
+  "description": "A set of wrappers for executing your REST-api requests. Provides source entities for accessing real api or mocked data through the same type of interface.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "npm build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
