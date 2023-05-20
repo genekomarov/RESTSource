@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "postinstall": "npm build"
+    "postinstall": "npm run build"
   },
   "keywords": [],
   "author": "",
