@@ -2,12 +2,21 @@
   "name": "restsource",
   "version": "1.0.0",
   "description": "A set of wrappers for executing your REST-api requests. Provides source entities for accessing real api or mocked data through the same type of interface.",
-  "main": "index.js",
+  "main": "./build/index.js",
   "scripts": {
     "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "jest",
     "postinstall": "npm run build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "jest": "^29.5.0"
+  },
+  "jest": {
+    "moduleFileExtensions": ["js"]
+  }
 }

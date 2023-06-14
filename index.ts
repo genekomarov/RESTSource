@@ -1,11 +1,18 @@
 export type {
-    default as ICRUD,
-    ICreateResponce,
-    IDeleteResponce,
-    IListResponse,
-    IReadResponse,
-    IUpdateResponce
-} from './_source/interface/ICRUD';
-export {default as Query} from "./_source/Query";
-export {default as Memory} from "./_source/Memory";
-export {default as Remote} from './_source/Remote';
+    ICRUD,
+    TIdentifier,
+    IError,
+    IFilter,
+    INavigation,
+    ISort,
+    IPayload,
+    IResponceBase,
+    IQuery,
+    TListResponce,
+    TCreateResponce,
+    TReadResponce,
+    TUpdateResponce,
+    TDeleteResponce
+} from './source/interface/ICRUD';
+export {default as Query} from "./source/Query";
+export {default as Memory} from "./source/Memory";
