@@ -1,6 +1,6 @@
 {
   "name": "restsource",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A set of wrappers for executing your REST-api requests. Provides source entities for accessing real api or mocked data through the same type of interface.",
   "main": "./build/index.js",
   "scripts": {
